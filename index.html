@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Shuckin Shack</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/owl.theme.default.min.css" rel="stylesheet">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="imgs/favicon.jpg" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+  <header>
+    <div id="logo">
+    <img class="center"src="imgs/logo.png" alt="The Shuckin Shack">
+    </div>
+    <div id="social">
+    </div>
+  </header>
+
+  <main>
+      <div id="menu">
+        <u><h2>Click Here
+        <br>to Download our Menu </h2></u>
+      </div>
+
+      <div id="hours">
+        <u><h2>Hours<h2></u>
+        <p> Monday- Friday: 11:00am- 10:00pm
+        <p>Saturday: 11:00am-12:00pm
+        <p>Sunday: Closed </p>
+      </div>
+
+      <div id="carousel">
+        <div class="owl-carousel owl-theme">
+        <div><img src="imgs/oyster.jpg" alt="Dummy image"></div>
+        <div><img src="imgs/people.jpg" alt="clams cooking"></div>
+        <div><img src="imgs/shrimp.jpg" alt="Dummy image"></div>
+        <div><img src="imgs/bar.jpg" alt="Dummy image"></div>
+        <div><img src="imgs/clams.jpg" alt="Dummy image"></div>
+        </div>
+        </div>
+
+        <div class="events">
+          <u><center> <h2>Upcoming Events</h2></center> </u>
+          <ul style="list-style-type:none">
+            <li> March 17th: St.Patricks Day Bash-
+            <br> Wear your green and recieve a free appetizer on us!</li><br>
+            <br><li>March 23rd: All you can eat oyster night- 14.99 per person</li><br>
+            <br><li>April 7th: Open mic night-
+            <br>Sign up to be a feature </li><br>
+            <br><li>April 21st: All you can eat oyster night- 14.99 per person </li>
+          </ul>
+        </div>
+
+      <div id="oysterinfo">
+        <u><h2>Reviews<h2></u>
+        <img class="left" src="imgs/water.jpg" alt="washing oysers">
+        <p> “…we experienced a revelation”
+        <br>-Susan and Hank Washington</p>
+        <p> “ The Shuckin Shack features a classic fish house restaurant and bar as well as an open raw bar where patrons can view the catch in its original state. Chef-prepared dishes are upscale and classic.”
+        <br> -Josie Banks</p>
+        <p> "This place is awesome to bring locals and nonlocals together! The upbeat and down to earth atmosphere makes it by far the best resturant on Folly Beach!"
+        <br> -Gary Smith </p>
+      </div>
+
+      <div id="map">
+        <u><h2> Come See Us Soon!</h2> </u>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3359.1145021924362!2d-79.94325418554425!3d32.65639699743443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88fdd7ea0dc68dc1%3A0x516ae129dfd3f4c6!2s26+Center+St%2C+Folly+Beach%2C+SC+29439!5e0!3m2!1sen!2sus!4v1517328439594" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> </div>
+
+      <div id="staff">
+        <u><h2> Meet the Team<h2></u>
+        <img class="left"src="imgs/owners.jpg" alt="Owners of The Shuck Shack">
+        <br>
+        <p> Steven and Jacob Chowder grew up with a love of oysters given to them by their parents. Right out of high school they began the adventure of opening The Shuckin' Shack. The brother duo was able to sucessfully catch and prepare fresh oysters while providing the "at home" feel that they invisoned to bring to the community.
+        <br>
+        <h3> @StevenChow
+        <br>
+        <h3> @JChowder
+      </div>
+  </main>
+
+  <footer>
+      <div id="credits">
+        <img class="right" src="imgs/insta.png" alt="Instagram">
+        @ShuckinShack
+        <img class="center"src="imgs/twit.png">
+        @shuckinshack
+        <img class="center" src="imgs/face.png">
+        @ShuckinShack
+        <p> Site Created by: Anna W
+      </div>
+  </footer>
+      </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script>
+     $(document).ready(function(){
+       $('.owl-carousel').owlCarousel({
+           dots:true,
+           items: 4,
+           loop: true,
+           margin: 20,
+           nav: false,
+           autoplay:true,
+           autoplayTimeout:4000,
+      })
+    });
+  </script>
+
+
+</body>
+</html>
