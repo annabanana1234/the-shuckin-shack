@@ -161,6 +161,14 @@ div#map {
 
 }
 
+div#dessert {
+  padding-left: 100px;
+}
+
+div#maindishes {
+grid-column: span 3;
+}
+
 @media (max-width: 599px) {
   div#map{
     display: none;
@@ -180,7 +188,7 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Lobster', cursive;
   text-align: center;
 }
@@ -267,18 +275,28 @@ iframe {
 
 
 a:link {
-
+font-family: 'Lobster', cursive;
+font-size: 24px;
+font:#000007;
 }
 
 a:visited {
+font-family: 'Lobster', cursive;
+font-size: 24px;
+font: #000007;
 
 }
 
 a:hover {
+font-family: 'Lobster', cursive;
+font-size: 24px;
 
 }
 
 a:active {
+font-family: 'Lobster', cursive;
+font-size: 24px;
+font:#000007;
 
 }
 
