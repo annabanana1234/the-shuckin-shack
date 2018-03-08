@@ -283,7 +283,7 @@ font:#000007;
 a:visited {
 font-family: 'Lobster', cursive;
 font-size: 24px;
-font: #000007;
+color: #000007;
 
 }
 
@@ -296,7 +296,7 @@ font-size: 24px;
 a:active {
 font-family: 'Lobster', cursive;
 font-size: 24px;
-font:#000007;
+color:#000007;
 
 }
 
